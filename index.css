@@ -1,0 +1,28 @@
+#thumbnail{
+    width: 80px;
+}
+#thumbnail:hover{
+    transform: scale(1.2);
+}
+.desc{
+    padding: 5% 2%;
+}
+.cart{
+    display: none;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 30%;
+}
+.cart.active{
+    display: block;
+}
+
+@media (max-width: 740px){
+    #product-img{
+        width: 300px;
+    }
+    #thumbnail{
+        width: 60px;
+    }
+}
