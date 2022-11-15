@@ -60,17 +60,26 @@ integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S8
               </nav>
         </div>
    </header> 
-   <div class="cart">
-    <div class="container text-center bg-danger">
-        <div class="row">
-          <div class="col-md p-5">
-            <img id="car-img" class="rounded-circle w-100" src="images/3191.jpg">
+   <div class="cart bg-danger">
+    <div class="container">
+      <h3 class="text-light">Your picks</h3>
+        <div class="row align-items-center">
+          <div class="col-md-5 py-3">
+            <img id="car-img" class="img-fluid w-100" src="images/3191.jpg">
           </div>
-          <div class="col-md pt-5 mt-5 text-light">
-            <h5>total cost: <span id="cost">$200</span></h5>
+          <div class="col-md-7 mt-5 text-light text-left">
+            <h4 id="item-title">Blentley Canon Pack</h4>
+            <p class="text-left" id="item-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, dicta!</pclass>
+            <p>Quantity: <span id="quantity">0</span>. total cost: $<span id="cost"></span></p>
           </div>
         </div>
+        <div class="button">
+          <button class="btn btn-warning p-3 w-100 ">Checkout</button> <br>
+          <button class="btn btn-outline-dark p-3 my-2 w-100">View Cart</button>
+        </div>
+        <hr>
       </div>
+      
    </div>
 
    <div class="container pt-5 mt-5">
